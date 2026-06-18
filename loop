@@ -1,0 +1,19 @@
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+
+
+    student = {"name": "Jeffry", "age": 20}
+
+# Keys
+for key in student:
+    print(key)
+
+# Values
+for value in student.values():
+    print(value)
+
+# Key-Value pairs
+for key, value in student.items():
+    print(key, ":", value)
